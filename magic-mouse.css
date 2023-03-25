@@ -1,0 +1,28 @@
+#magicMouseCursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(119, 136, 153, 0.404);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+#magicMouseCursor:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: inherit;
+    border-width: thin;
+    border-style: solid;
+
+    /* Light theme */
+    background-color: rgba(107, 107, 107, 0.164);
+    /* Change this to your desired light theme color */
+    /* Change this to your desired light theme color */
+
+}
+
